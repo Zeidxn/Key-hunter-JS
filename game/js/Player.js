@@ -13,10 +13,10 @@ export default class Player extends ObjectGraphique {
             down: new Image(),
             right: new Image()
         };
-        this.gifs.up.src = "./../../assets/images/player/walk-up.gif";
-        this.gifs.left.src = "./../../assets/images/player/walk-left.gif";
-        this.gifs.down.src = "./../../assets/images/player/walk-down.gif";
-        this.gifs.right.src = "./../../assets/images/player/walk-right.gif";
+        this.gifs.up.src = "https://zeidxn.github.io/Key-hunter-JS/assets/images/player/walk-up.gif";
+        this.gifs.left.src = "https://zeidxn.github.io/Key-hunter-JS/assets/images/player/walk-left.gif";
+        this.gifs.down.src = "https://zeidxn.github.io/Key-hunter-JS/assets/images/player/walk-down.gif";
+        this.gifs.right.src = "https://zeidxn.github.io/Key-hunter-JS/assets/images/player/walk-right.gif";
 
         // Default direction
         this.currentGif = this.gifs.down;
