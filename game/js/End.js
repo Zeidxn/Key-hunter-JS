@@ -4,7 +4,7 @@ export default class End extends ObjectGraphique {
     constructor(x, y, w, h) {
         super(x, y, w, h);
         this.image = new Image();
-        this.image.src = "/assets/images/item-end.png";
+        this.image.src = "./../../assets/images/item-end.png";
     }
 
     draw(ctx) {

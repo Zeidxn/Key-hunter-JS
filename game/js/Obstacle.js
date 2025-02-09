@@ -4,7 +4,7 @@ export default class Obstacle extends ObjectGraphique {
     constructor(x, y, w, h) {
         super(x, y, w, h);
         this.image = new Image();
-        this.image.src = h > w ? "/assets/images/obstacles/wall-rect-1.png" : "/assets/images/obstacles/wall-1.png";
+        this.image.src = h > w ? "./../../assets/images/obstacles/wall-rect-1.png" : "./../../assets/images/obstacles/wall-1.png";
     }
 
     draw(ctx) {
