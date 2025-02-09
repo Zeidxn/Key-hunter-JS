@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Key Hunter</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" type="image/png" href="/assets/images/menu/menu-1.png" />
+    </head>
+    <body>
+
+        <canvas width="800" height="800" id="myCanvas"></canvas>
+
+        <div id="levelTransition" class="hidden">
+            <p>Niveau <span id="levelNumber"></span></p>
+        </div>
+
+        <div id="gameOverScreen" class="hidden">
+            <p>Game Over</p>
+            <button id="retryButton">Recommencer</button>
+        </div>
+
+        <div id="winScreen" class="hidden">
+            <p>Bravo, vous avez gagné !</p>
+            <button id="retryButtonWin">Recommencer</button>
+        </div>
+        <script type="module" src="js/script.js"></script>
+
+    </body>
+</html>
